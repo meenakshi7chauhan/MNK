@@ -1,0 +1,45 @@
+[
+  {
+   "type": "GuiCTextField",
+   "ID":
+   "title":"Supplier / Supplying Plant",
+   "class":"lsField__input"
+   "label":"Supplier"
+  },
+  {
+   "id":"M0:46:1:2:2:1:1::0:7-title",
+   "label":"Org. Data",
+   "role":"tab"
+   "nodes":[
+        {
+          "id":"M0:46:1:2:2:1:1:2B263::0:16",
+           "type":"text",
+           "title":"Purchasing Organization",
+           "class":"lsField__input",
+           "label":"Purch. Org."
+        },
+        {
+          "id":"M0:46:1:2:2:1:1:2B263::1:16",
+          "type":"text",
+          "title":"Purchasing Group",
+          "class":"lsField__input",
+          "label":"Purch.Group"
+        },
+        {
+          "id":"M0:46:1:2:2:1:1:2B263::2:16",
+          "type":"text",
+          "role":"combobox",
+          "title":"Company Code",
+          "class":"lsField__input",
+          "label":"Company Code"
+        }
+   ]
+  },
+  {
+   "id":
+   "label":"Save",
+   "title":"Save (Ctrl+S)",
+   "class":"lsButton lsButton--base lsTbarBtnStd urInlineMetricTop urNoUserSelect urBtnRadius  urBtnStdValign  lsButton--active  lsButton--hoverable  lsButton--focusable  lsButton--up lsButton--design-emphasized",
+    "role":"button"
+
+]
